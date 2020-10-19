@@ -12,9 +12,10 @@
         <version>2.3.4.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>mich.springframework</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>spring-pet-clinic</name>
     <description>Spring Pet Clinic</description>
 
@@ -24,7 +25,6 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/zarnowsk/spring-pet-clinic</developerConnection>
-      <tag>0.0.2 RELEASE</tag>
   </scm>
 
     <build>
