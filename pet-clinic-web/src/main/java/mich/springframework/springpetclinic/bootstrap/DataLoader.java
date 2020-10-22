@@ -91,11 +91,11 @@ public class DataLoader implements CommandLineRunner {
 
         ownerService.save(owner2);
 
-//        Visit catVisit = new Visit();
-//        catVisit.setPet(fionasCat);
-//        catVisit.setDate(LocalDate.now());
-//        catVisit.setDescription("Sneezy kitty");
-//        visitService.save(catVisit);
+        Visit catVisit = new Visit();
+        catVisit.setPet(fionasCat);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sneezy kitty");
+        visitService.save(catVisit);
 
         System.out.println("Loaded Owners...");
 
