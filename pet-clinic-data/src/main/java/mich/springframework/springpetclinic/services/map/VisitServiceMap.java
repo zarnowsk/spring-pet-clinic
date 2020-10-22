@@ -4,17 +4,10 @@ import mich.springframework.springpetclinic.model.Visit;
 import mich.springframework.springpetclinic.services.VisitService;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.Lob;
 import java.util.Set;
 
 @Service
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService {
-
-    private final VisitService visitService;
-
-    public VisitServiceMap(VisitService visitService) {
-        this.visitService = visitService;
-    }
 
     @Override
     public Set<Visit> findAll() {
